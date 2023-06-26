@@ -5,8 +5,8 @@ from PIL import Image
 st.set_page_config(page_title="Sriram's Portfolio", page_icon=":wave:", layout="wide")
 
 # --- CSS IMPORT ---
-with open('style.css') as f:
-    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+# with open('style.css') as f:
+#    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 # -- PRE-LOADING FILES ---
 selfPortrait = Image.open("images/KTPHeadshot_copy.jpeg")
