@@ -9,8 +9,8 @@ st.set_page_config(page_title="Sriram's Portfolio", page_icon=":wave:", layout="
 #    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 # -- PRE-LOADING FILES ---
-selfPortrait = Image.open("images/KTPHeadshot_copy.jpeg")
-sfBackground = Image.open("images/SF_Sruti.jpeg")
+selfPortrait = Image.open("KTPHeadshot_copy.jpeg")
+sfBackground = Image.open("SF.jpeg")
 # --- MENU BAR ---
 
 # --- HEADER ---
